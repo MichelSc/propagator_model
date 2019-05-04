@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_EcsXEG2jEemiGYy6kxJf9g" name="playground" metaclassReference="_aQh6AG2nEemiGYy6kxJf9g">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WwA2EG2mEemiGYy6kxJf9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_Gu3CMG5MEemvx9d0oBjaCg" name="playground" nsURI="http:///schemas/playground/_Gu2bIG5MEemvx9d0oBjaCg/2" nsPrefix="playground">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Gu3CMW5MEemvx9d0oBjaCg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Gu3CMm5MEemvx9d0oBjaCg" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Gu3CM25MEemvx9d0oBjaCg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Gu3CNG5MEemvx9d0oBjaCg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Gu3CNW5MEemvx9d0oBjaCg" key="Date" value="2019-05-04"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Gu3CNm5MEemvx9d0oBjaCg" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_lXxUMW2nEemiGYy6kxJf9g" name="playground" nsURI="http:///schemas/playground/_lXxUMG2nEemiGYy6kxJf9g/1" nsPrefix="playground">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lXxUMm2nEemiGYy6kxJf9g" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lXxUM22nEemiGYy6kxJf9g" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lXxUNG2nEemiGYy6kxJf9g" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lXxUNW2nEemiGYy6kxJf9g" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lXxUNm2nEemiGYy6kxJf9g" key="Date" value="2019-05-03"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lXxUN22nEemiGYy6kxJf9g" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_WwA2EW2mEemiGYy6kxJf9g" name="playground" nsURI="http:///schemas/playground/_Wv_n8G2mEemiGYy6kxJf9g/0" nsPrefix="playground">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WwBdIG2mEemiGYy6kxJf9g" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WwBdIW2mEemiGYy6kxJf9g" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WwBdIm2mEemiGYy6kxJf9g" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WwBdI22mEemiGYy6kxJf9g" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WwBdJG2mEemiGYy6kxJf9g" key="Date" value="2019-05-03"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WwBdJW2mEemiGYy6kxJf9g" key="Author" value=""/>
+      </eAnnotations>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_aQh6AG2nEemiGYy6kxJf9g" alias="Property">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+  </elementImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_EhFu4G2jEemiGYy6kxJf9g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_EhGV8G2jEemiGYy6kxJf9g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_IyG4IG2jEemiGYy6kxJf9g">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Ecore.profile.uml#_0"/>
+  </packageImport>
+</uml:Profile>

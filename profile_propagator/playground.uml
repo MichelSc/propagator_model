@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_A_sJ4G2REemiGYy6kxJf9g" name="playground">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_Lea9IG2SEemiGYy6kxJf9g" name="Activity2"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_s4shQG2iEemiGYy6kxJf9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s4uWcG2iEemiGYy6kxJf9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Ecore.profile.uml#_0"/>
+  </profileApplication>
+</uml:Model>
