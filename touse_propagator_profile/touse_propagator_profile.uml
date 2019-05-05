@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Ecore="http://www.eclipse.org/uml2/schemas/Ecore/5" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:profile_propagator2="http:///schemas/profile_propagator2/_4MAx0G8REemvx9d0oBjaCg/4" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Ecore/5 pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA http:///schemas/profile_propagator2/_4MAx0G8REemvx9d0oBjaCg/4 /profile_propagator/profile_propagator2.profile.uml#_4MBY4G8REemvx9d0oBjaCg">
+  <uml:Model xmi:id="_dYEosG8mEemvx9d0oBjaCg" name="touse_propagator_profile">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ddpsQG8mEemvx9d0oBjaCg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ldIEQG8mEemvx9d0oBjaCg" name="Project">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_fnVgIG8nEemvx9d0oBjaCg" name="Start">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mlQJ8G8mEemvx9d0oBjaCg" name="Task">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_6zQ7YG8mEemvx9d0oBjaCg" name="Start">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="___TicG8mEemvx9d0oBjaCg" name="End">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_N15e0G8nEemvx9d0oBjaCg" name="Hours">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_MAFzwG8nEemvx9d0oBjaCg" name="refreshStart"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_OWaK4G8nEemvx9d0oBjaCg" name="refreshEnd"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nleQ0G8mEemvx9d0oBjaCg" name="Precedence">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_By3x0G8nEemvx9d0oBjaCg" name="Hours">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_qnB9UG8mEemvx9d0oBjaCg" memberEnd="_qnCkYm8mEemvx9d0oBjaCg _qnCkY28mEemvx9d0oBjaCg" navigableOwnedEnd="_qnCkY28mEemvx9d0oBjaCg _qnCkYm8mEemvx9d0oBjaCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qnCkYG8mEemvx9d0oBjaCg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qnCkYW8mEemvx9d0oBjaCg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_qnCkYm8mEemvx9d0oBjaCg" name="Before" type="_mlQJ8G8mEemvx9d0oBjaCg" association="_qnB9UG8mEemvx9d0oBjaCg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_qnCkY28mEemvx9d0oBjaCg" name="After" type="_nleQ0G8mEemvx9d0oBjaCg" association="_qnB9UG8mEemvx9d0oBjaCg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uKs4YG8mEemvx9d0oBjaCg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uKwiwG8mEemvx9d0oBjaCg" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xEeh4G8mEemvx9d0oBjaCg" memberEnd="_xEfI8m8mEemvx9d0oBjaCg _xEfI828mEemvx9d0oBjaCg" navigableOwnedEnd="_xEfI8m8mEemvx9d0oBjaCg _xEfI828mEemvx9d0oBjaCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xEfI8G8mEemvx9d0oBjaCg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xEfI8W8mEemvx9d0oBjaCg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_xEfI8m8mEemvx9d0oBjaCg" name="Before" type="_nleQ0G8mEemvx9d0oBjaCg" association="_xEeh4G8mEemvx9d0oBjaCg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0XyswG8mEemvx9d0oBjaCg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0X1wEG8mEemvx9d0oBjaCg" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_xEfI828mEemvx9d0oBjaCg" name="After" type="_mlQJ8G8mEemvx9d0oBjaCg" association="_xEeh4G8mEemvx9d0oBjaCg"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ddetIG8mEemvx9d0oBjaCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ddfUMG8mEemvx9d0oBjaCg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ddfUMW8mEemvx9d0oBjaCg" key="Version" value="0.0.5"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ddfUMm8mEemvx9d0oBjaCg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ddfUM28mEemvx9d0oBjaCg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ddfUNG8mEemvx9d0oBjaCg" key="Date" value="2019-05-05"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ddfUNW8mEemvx9d0oBjaCg" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ddetIW8mEemvx9d0oBjaCg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="/profile_propagator/profile_propagator2.profile.uml#_4MBY4G8REemvx9d0oBjaCg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="/profile_propagator/profile_propagator2.profile.uml#_JQhjIG5LEemvx9d0oBjaCg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ckryAG8oEemvx9d0oBjaCg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ckryAW8oEemvx9d0oBjaCg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Ecore.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <profile_propagator2:Bindings xmi:id="_TOjlkG8nEemvx9d0oBjaCg" base_Operation="_MAFzwG8nEemvx9d0oBjaCg"/>
+  <profile_propagator2:Bindings xmi:id="_X1qTkG8nEemvx9d0oBjaCg" base_Operation="_OWaK4G8nEemvx9d0oBjaCg"/>
+  <Ecore:EAttribute xmi:id="_fxN_cG8oEemvx9d0oBjaCg" base_Property="_6zQ7YG8mEemvx9d0oBjaCg"/>
+  <Ecore:EAttribute xmi:id="_ktBLEG8oEemvx9d0oBjaCg" base_Property="___TicG8mEemvx9d0oBjaCg"/>
+  <Ecore:EAttribute xmi:id="_nz3nQG8oEemvx9d0oBjaCg" base_Property="_N15e0G8nEemvx9d0oBjaCg"/>
+</xmi:XMI>
