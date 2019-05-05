@@ -29,6 +29,15 @@
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_g8ReYG5ZEemvx9d0oBjaCg" name="touch"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_A_siIG5bEemvx9d0oBjaCg" name="getPropagator"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_A3EYUG5gEemvx9d0oBjaCg" name="getOutboundPropagator">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_A3EYUW5gEemvx9d0oBjaCg" name="outboundFeature">
+        <type xmi:type="uml:Class" href="pathmap://ECORE_METAMODEL_LIBRARY/Ecore.uml#_SeWiSMX_EduPJbEsMYXjUQ"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_A3EYUm5gEemvx9d0oBjaCg" name="propagator" type="_Ly538G5ZEemvx9d0oBjaCg" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A3EYU25gEemvx9d0oBjaCg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A3EYVG5gEemvx9d0oBjaCg" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_6N6-QG5YEemvx9d0oBjaCg" name="OutBinding">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_j0PxEG5ZEemvx9d0oBjaCg" name="BoundFeature" visibility="public" isStatic="true">
@@ -52,8 +61,8 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_Dgq8BW5ZEemvx9d0oBjaCg" type="_2DwD4G5YEemvx9d0oBjaCg" association="_DgqU8G5ZEemvx9d0oBjaCg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_Fo4lsG5ZEemvx9d0oBjaCg" name="InBinding">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_u7WEgG5dEemvx9d0oBjaCg" name="getAntecedents">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_u7WEgW5dEemvx9d0oBjaCg" name="propagator" type="_Ly538G5ZEemvx9d0oBjaCg" direction="return">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_u7WEgG5dEemvx9d0oBjaCg" name="collectOutboundPropagators">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_u7WEgW5dEemvx9d0oBjaCg" name="propagator" type="_Ly538G5ZEemvx9d0oBjaCg" direction="inout">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u7WEgm5dEemvx9d0oBjaCg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u7WEg25dEemvx9d0oBjaCg" value="*"/>
       </ownedParameter>
@@ -61,7 +70,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_G0grUG5ZEemvx9d0oBjaCg" name="InBindingAttribute">
     <generalization xmi:type="uml:Generalization" xmi:id="_SZRH8G5ZEemvx9d0oBjaCg" general="_Fo4lsG5ZEemvx9d0oBjaCg"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_R5x6IG5aEemvx9d0oBjaCg" name="BoundFeature" visibility="public" isStatic="true">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_R5x6IG5aEemvx9d0oBjaCg" name="BoundFeature" visibility="public" isStatic="true" isReadOnly="true">
       <type xmi:type="uml:Class" href="pathmap://ECORE_METAMODEL_LIBRARY/Ecore.uml#_SeWiQcX_EduPJbEsMYXjUQ"/>
     </ownedAttribute>
   </packagedElement>
@@ -81,8 +90,8 @@
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_YNyEQG5ZEemvx9d0oBjaCg" name="refresh"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_extHcG5dEemvx9d0oBjaCg" name="getAntecedents">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_extHcm5dEemvx9d0oBjaCg" name="propagator" type="_Ly538G5ZEemvx9d0oBjaCg" direction="return">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_extHcG5dEemvx9d0oBjaCg" name="collectAntecedents">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_extHcm5dEemvx9d0oBjaCg" name="propagators" type="_Ly538G5ZEemvx9d0oBjaCg" direction="inout">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_extHc25dEemvx9d0oBjaCg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_extHdG5dEemvx9d0oBjaCg" value="*"/>
       </ownedParameter>

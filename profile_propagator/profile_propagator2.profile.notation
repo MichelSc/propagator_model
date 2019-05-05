@@ -139,8 +139,8 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="__GGEkW5MEemvx9d0oBjaCg"/>
     <element xmi:type="uml:Association" href="profile_propagator2.profile.uml#__F5QQG5MEemvx9d0oBjaCg"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__GGEkm5MEemvx9d0oBjaCg" points="[560, 380, -643984, -643984]$[560, 180, -643984, -643984]$[360, 120, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__G_ccG5MEemvx9d0oBjaCg" id="(0.1652892561983471,0.0)"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__GGEkm5MEemvx9d0oBjaCg" points="[520, 420, -643984, -643984]$[540, 180, -643984, -643984]$[360, 120, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__G_ccG5MEemvx9d0oBjaCg" id="(0.24793388429752067,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__HADgG5MEemvx9d0oBjaCg" id="(0.8,1.0)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_NTBdUG5NEemvx9d0oBjaCg" type="Extension_Edge" source="_jjpxUG5OEemvx9d0oBjaCg" target="_hP1b8G5LEemvx9d0oBjaCg">
