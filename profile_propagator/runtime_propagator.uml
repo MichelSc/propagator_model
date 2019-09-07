@@ -74,7 +74,7 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_Dgq8BW5ZEemvx9d0oBjaCg" type="_2DwD4G5YEemvx9d0oBjaCg" association="_DgqU8G5ZEemvx9d0oBjaCg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_Fo4lsG5ZEemvx9d0oBjaCg" name="InBinding">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_u7WEgG5dEemvx9d0oBjaCg" name="collectOutboundPropagators">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_u7WEgG5dEemvx9d0oBjaCg" name="collectAntecedents">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_u7WEgW5dEemvx9d0oBjaCg" name="propagator" type="_Ly538G5ZEemvx9d0oBjaCg" direction="inout">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u7WEgm5dEemvx9d0oBjaCg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u7WEg25dEemvx9d0oBjaCg" value="*"/>
